@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">m-13(Weather_app)-final</string>
+    <string name="weathericon">weathericon</string>
+    <string name="country_name">Country Name</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="temp_max">Max Temp</string>
+    <string name="temp_min">Min Temp</string>
+    <string name="humidity">Humidity</string>
+    <string name="type_your_email">Enter your Email</string>
+    <string name="type_your_password">Enter Your Password</string>
+    <string name="retype_your_password">Retype Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_registered_sign_in">Already Registered, Sign In !</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered_yet_sign_up">Not Registered Yet , Sign Up !</string>
+
+
+</resources>
