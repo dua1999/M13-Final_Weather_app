@@ -1,5 +1,6 @@
 package com.example.m_13weather_app_final
 
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
@@ -26,9 +27,19 @@ class MainActivity : ComponentActivity() {
     var wtemp_min:TextView?= null
     var humidity:TextView?=null
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView( R.layout.activity_main)
+
+        val result = findViewById<TextView>(R.id.result)
+
+        val sharedPreferences = getSharedPreferences("MY_PRE", Context.MODE_PRIVATE)
+
+
+        val email = sharedPreferences.getString("EMAIL", "").toString()
+        result.text = "$email"
 
         tv_temp = findViewById(R.id.tv_temp)
         tv_name=findViewById(R.id.tv_name)

@@ -8,11 +8,45 @@
     android:background="@drawable/main_bg"
     tools:context=".MainActivity"
     >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:src="@drawable/baseline_person"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resuslt"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/result"/>
+
+
+
+    </LinearLayout>
     
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:orientation="vertical"
         android:padding="20dp">
 
